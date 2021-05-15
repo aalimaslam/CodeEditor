@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+textarea{
+    background:#222;
+    color:white;
+    font-size: 1.3rem;
+    padding:30px;
+    outline: none;
+    border:none;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0px 25px 50px #aaa;
+    height:100%;
+    width:100%;
+}
+.output{
+    background:#ddd;
+}
+.heading{
+    font-size:2rem;
+    font-family: sans-serif;
+    text-align: center;
+    padding:30px;
+}
+.codeEditor{
+    height:40vh;
+    width:80vw;
+}
+.output{
+    width:80vw;
+    height:40vh;
+    margin-top:130px;
+    font-family: sans-serif;
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: 0px 25px 50px #aaa;
+}
